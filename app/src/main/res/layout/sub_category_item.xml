@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_category"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/medium_padding">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/request_data"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/btn_menu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_hover"
+            android:padding="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_category"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_category"
+            app:srcCompat="@drawable/ic_more" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/tv_type"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_type"
+            app:layout_constraintTop_toBottomOf="@+id/tv_category"
+            android:layout_marginLeft="10dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/no_data"
+                android:textSize="13sp"
+                android:visibility="visible"
+                android:layout_marginLeft="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_book"
+                android:drawablePadding="6dp"
+                android:ellipsize="marquee"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tv_book"
+                android:textSize="13sp"
+                android:visibility="gone"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/ic_book" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_video"
+                android:drawablePadding="6dp"
+                android:ellipsize="marquee"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tv_video"
+                android:textSize="13sp"
+                android:visibility="gone"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/ic_video" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_audio"
+                android:drawablePadding="6dp"
+                android:ellipsize="marquee"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tv_audio"
+                android:textSize="13sp"
+                android:visibility="gone"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/ic_audio" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_baseline_link_24"
+                android:drawablePadding="6dp"
+                android:ellipsize="marquee"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tv_link"
+                android:textSize="13sp"
+                android:visibility="gone"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/ic_baseline_link_24" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_class"
+        android:checked="true"
+        android:icon="@drawable/ic_class_black"
+        android:title="@string/menu_class" />
+
+    <item
+        android:id="@+id/menu_lesson"
+        android:icon="@drawable/ic_book_black"
+        android:title="@string/lesson" />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_profile_black"
+        android:title="@string/profile" />
+
+</menu>

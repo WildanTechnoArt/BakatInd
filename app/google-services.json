@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "916325699333",
+    "firebase_url": "https://indonesian-worker-academy.firebaseio.com",
+    "project_id": "indonesian-worker-academy",
+    "storage_bucket": "indonesian-worker-academy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916325699333:android:597a5b99344eb557f6b16c",
+        "android_client_info": {
+          "package_name": "com.bakatind.indonesia.skillacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916325699333-sgbtr6qjj1d9f8442jnen7pm5o8c557j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bakatind.indonesia.skillacademy",
+            "certificate_hash": "4c508e4d4a008732b7f8de5f4c82d61a549e5aaf"
+          }
+        },
+        {
+          "client_id": "916325699333-i5t28bv300uit8hufefu8tefh3d3enp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDijBTWs4Mcp-ksmSUxBAgrIrCUxYi7S14"
+        },
+        {
+          "current_key": "AIzaSyDOePhCZNRhOeS-18I8AKzscGknvrxuEDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916325699333-i5t28bv300uit8hufefu8tefh3d3enp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916325699333:android:736f5db03c6f40fcf6b16c",
+        "android_client_info": {
+          "package_name": "com.project.adminklikkerja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916325699333-dgi298nuh1a0jt45nf05vkghn0s9mi0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.adminklikkerja",
+            "certificate_hash": "4c508e4d4a008732b7f8de5f4c82d61a549e5aaf"
+          }
+        },
+        {
+          "client_id": "916325699333-eoriqli20rao9jfcrm42nn809suce5bp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.adminklikkerja",
+            "certificate_hash": "3ac340cf01d1e7809be066dc45a3d688dd6bbd09"
+          }
+        },
+        {
+          "client_id": "916325699333-i5t28bv300uit8hufefu8tefh3d3enp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDijBTWs4Mcp-ksmSUxBAgrIrCUxYi7S14"
+        },
+        {
+          "current_key": "AIzaSyDOePhCZNRhOeS-18I8AKzscGknvrxuEDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916325699333-i5t28bv300uit8hufefu8tefh3d3enp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

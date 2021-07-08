@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_corner">8dp</dimen>
+    <dimen name="margin_very_big_size">16dp</dimen>
+    <dimen name="btn_padding_top">14dp</dimen>
+    <dimen name="btn_padding_bottom">14dp</dimen>
+    <dimen name="margin_big_size">16sp</dimen>
+    <dimen name="font_big_size">16sp</dimen>
+    <dimen name="font_very_big_size">24sp</dimen>
+    <dimen name="margin_normal_size">12sp</dimen>
+    <dimen name="margin_small_size">8dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_radius_corner">12dp</dimen>
+    <dimen name="tv_medium_text_size">15sp</dimen>
+    <dimen name="medium_padding">12dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="card_full_radius">22dp</dimen>
+</resources>
